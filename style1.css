@@ -1,0 +1,226 @@
+/*body style*/
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #000;
+    display: flex;
+}
+
+/*nav menu styles*/
+nav {
+    background-color: #500;
+    color: #fff;
+    width: 12%;
+    min-width: 120px;
+    height: 100vh;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease, text-shadow 0.2s ease;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+    background-color: #500;
+    transform: scale(1.05);
+}
+
+/*header styles*/
+main {
+    margin-left: calc(12% + 6%);
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+.header {
+    background-color: #500;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*content box*/
+.content-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+/*section styles*/
+section h3 {
+    color: #500;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+section p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*service styles*/
+.service {
+    margin-bottom: 1.5rem;
+}
+
+.service h4 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.service p {
+    color: #000;
+    line-height: 1.4;
+}
+
+/*about me style*/
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 15%;
+}
+
+/*image style*/
+.image {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*hobby styles*/
+.hobby {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hobby .hobby-links {
+    flex: 1;
+}
+
+.hobby .image {
+    flex: 1;
+    max-width: 250px;
+    height: 150px;
+    margin: 0;
+}
+
+/*project image stuff*/
+.project-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.project-image {
+    flex-shrink: 0;
+    max-width: 250px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*service image stuff*/
+.service-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.service-image {
+    flex-shrink: 0;
+    max-width: 250px;
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-img {
+  width: 71%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bike-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.decorative-icon {
+  width: 60px;
+  height: auto;
+}
